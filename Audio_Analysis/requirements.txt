@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+librosa
+scipy
+pingouin
+pydub
+faster-whisper
+openpyxl
+jupyter
+notebook
+ipykernel
