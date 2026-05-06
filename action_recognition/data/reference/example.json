@@ -1,0 +1,62 @@
+{
+  "split": {
+    "train": ["YouTube_001_posture1", "YouTube_001_posture3"],
+    "val": ["D02_1_Posture 5", "D02_1_Posture 7"]
+  },
+  "annotations": [
+    {
+      "start_frame": 0,
+      "end_frame": 62,
+      "pos_label": "Prone",
+      "frame_dir": "YouTube_001_posture1",
+      "img_shape": [1080, 1920],
+      "original_shape": [1080, 1920],
+      "total_frames": 62,
+      "keypoint": [[[ [512.0, 320.0], [514.0, 322.0], [516.0, 324.0] ]]],
+      "keypoint_score": [[[0.95, 0.93, 0.92]]],
+      "source": "youtube",
+      "label": 1
+    },
+    {
+      "start_frame": 117,
+      "end_frame": 160,
+      "pos_label": "All-fours",
+      "frame_dir": "YouTube_001_posture3",
+      "img_shape": [1080, 1920],
+      "original_shape": [1080, 1920],
+      "total_frames": 42,
+      "keypoint": [[[ [600.0, 310.0], [603.0, 315.0], [606.0, 320.0] ]]],
+      "keypoint_score": [[[0.94, 0.96, 0.91]]],
+      "source": "youtube",
+      "label": 4
+    },
+    {
+      "pos_number": 5,
+      "start_frame": 1523,
+      "end_frame": 1568,
+      "frame_dir": "D02_1_Posture 5",
+      "total_frames": 45,
+      "img_shape": [1080, 1920],
+      "original_shape": [1080, 1920],
+      "pos_label": "All-fours",
+      "source": "CAREER_D02",
+      "keypoint": [[[ [480.0, 360.0], [482.0, 364.0], [484.0, 368.0] ]]],
+      "keypoint_score": [[[0.90, 0.88, 0.91]]],
+      "label": 4
+    },
+    {
+      "pos_number": 7,
+      "start_frame": 1625,
+      "end_frame": 2065,
+      "frame_dir": "D02_1_Posture 7",
+      "total_frames": 440,
+      "img_shape": [1080, 1920],
+      "original_shape": [1080, 1920],
+      "pos_label": "Sitting",
+      "source": "CAREER_D02",
+      "keypoint": [[[ [520.0, 400.0], [524.0, 404.0], [528.0, 408.0] ]]],
+      "keypoint_score": [[[0.97, 0.96, 0.95]]],
+      "label": 2
+    }
+  ]
+}

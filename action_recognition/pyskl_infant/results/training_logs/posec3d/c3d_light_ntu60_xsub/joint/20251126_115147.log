@@ -1,0 +1,228 @@
+2025-11-26 11:51:47,905 - pyskl - INFO - Environment info:
+------------------------------------------------------------
+sys.platform: linux
+Python: 3.7.11 (default, Jul 27 2021, 14:32:16) [GCC 7.5.0]
+CUDA available: True
+GPU 0: NVIDIA A100 80GB PCIe
+CUDA_HOME: /usr/local/cuda
+NVCC: Cuda compilation tools, release 12.9, V12.9.86
+GCC: gcc (GCC) 11.2.0
+PyTorch: 1.11.0
+PyTorch compiling details: PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v2.5.2 (Git Hash a9302535553c73243c632ad3c4c80beec3d19a1e)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.3
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_37,code=compute_37
+  - CuDNN 8.2
+  - Magma 2.5.2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.3, CUDNN_VERSION=8.2.0, CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/c++, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.11.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, 
+
+TorchVision: 0.12.0
+OpenCV: 4.12.0
+MMCV: 1.5.0
+MMCV Compiler: GCC 7.3
+MMCV CUDA Compiler: 11.3
+pyskl: 0.1.0+3f6795f
+------------------------------------------------------------
+
+2025-11-26 11:51:48,173 - pyskl - INFO - Config: model = dict(
+    type='Recognizer3D',
+    backbone=dict(
+        type='C3D',
+        in_channels=17,
+        base_channels=32,
+        num_stages=3,
+        temporal_downsample=False),
+    cls_head=dict(
+        type='I3DHead', in_channels=256, num_classes=60, dropout=0.5),
+    test_cfg=dict(average_clips='prob'))
+dataset_type = 'PoseDataset'
+ann_file = 'data/nturgbd/ntu60_hrnet.pkl'
+left_kp = [1, 3, 5, 7, 9, 11, 13, 15]
+right_kp = [2, 4, 6, 8, 10, 12, 14, 16]
+train_pipeline = [
+    dict(type='UniformSampleFrames', clip_len=48),
+    dict(type='PoseDecode'),
+    dict(type='PoseCompact', hw_ratio=1.0, allow_imgpad=True),
+    dict(type='Resize', scale=(-1, 64)),
+    dict(type='RandomResizedCrop', area_range=(0.56, 1.0)),
+    dict(type='Resize', scale=(56, 56), keep_ratio=False),
+    dict(
+        type='Flip',
+        flip_ratio=0.5,
+        left_kp=[1, 3, 5, 7, 9, 11, 13, 15],
+        right_kp=[2, 4, 6, 8, 10, 12, 14, 16]),
+    dict(type='GeneratePoseTarget', with_kp=True, with_limb=False),
+    dict(type='FormatShape', input_format='NCTHW_Heatmap'),
+    dict(type='Collect', keys=['imgs', 'label'], meta_keys=[]),
+    dict(type='ToTensor', keys=['imgs', 'label'])
+]
+val_pipeline = [
+    dict(type='UniformSampleFrames', clip_len=48, num_clips=1),
+    dict(type='PoseDecode'),
+    dict(type='PoseCompact', hw_ratio=1.0, allow_imgpad=True),
+    dict(type='Resize', scale=(64, 64), keep_ratio=False),
+    dict(type='GeneratePoseTarget', with_kp=True, with_limb=False),
+    dict(type='FormatShape', input_format='NCTHW_Heatmap'),
+    dict(type='Collect', keys=['imgs', 'label'], meta_keys=[]),
+    dict(type='ToTensor', keys=['imgs'])
+]
+test_pipeline = [
+    dict(type='UniformSampleFrames', clip_len=48, num_clips=10),
+    dict(type='PoseDecode'),
+    dict(type='PoseCompact', hw_ratio=1.0, allow_imgpad=True),
+    dict(type='Resize', scale=(64, 64), keep_ratio=False),
+    dict(
+        type='GeneratePoseTarget',
+        with_kp=True,
+        with_limb=False,
+        double=True,
+        left_kp=[1, 3, 5, 7, 9, 11, 13, 15],
+        right_kp=[2, 4, 6, 8, 10, 12, 14, 16]),
+    dict(type='FormatShape', input_format='NCTHW_Heatmap'),
+    dict(type='Collect', keys=['imgs', 'label'], meta_keys=[]),
+    dict(type='ToTensor', keys=['imgs'])
+]
+data = dict(
+    videos_per_gpu=32,
+    workers_per_gpu=4,
+    test_dataloader=dict(videos_per_gpu=1),
+    train=dict(
+        type='RepeatDataset',
+        times=10,
+        dataset=dict(
+            type='PoseDataset',
+            ann_file='data/nturgbd/ntu60_hrnet.pkl',
+            split='xsub_train',
+            pipeline=[
+                dict(type='UniformSampleFrames', clip_len=48),
+                dict(type='PoseDecode'),
+                dict(type='PoseCompact', hw_ratio=1.0, allow_imgpad=True),
+                dict(type='Resize', scale=(-1, 64)),
+                dict(type='RandomResizedCrop', area_range=(0.56, 1.0)),
+                dict(type='Resize', scale=(56, 56), keep_ratio=False),
+                dict(
+                    type='Flip',
+                    flip_ratio=0.5,
+                    left_kp=[1, 3, 5, 7, 9, 11, 13, 15],
+                    right_kp=[2, 4, 6, 8, 10, 12, 14, 16]),
+                dict(type='GeneratePoseTarget', with_kp=True, with_limb=False),
+                dict(type='FormatShape', input_format='NCTHW_Heatmap'),
+                dict(type='Collect', keys=['imgs', 'label'], meta_keys=[]),
+                dict(type='ToTensor', keys=['imgs', 'label'])
+            ])),
+    val=dict(
+        type='PoseDataset',
+        ann_file='data/nturgbd/ntu60_hrnet.pkl',
+        split='xsub_val',
+        pipeline=[
+            dict(type='UniformSampleFrames', clip_len=48, num_clips=1),
+            dict(type='PoseDecode'),
+            dict(type='PoseCompact', hw_ratio=1.0, allow_imgpad=True),
+            dict(type='Resize', scale=(64, 64), keep_ratio=False),
+            dict(type='GeneratePoseTarget', with_kp=True, with_limb=False),
+            dict(type='FormatShape', input_format='NCTHW_Heatmap'),
+            dict(type='Collect', keys=['imgs', 'label'], meta_keys=[]),
+            dict(type='ToTensor', keys=['imgs'])
+        ]),
+    test=dict(
+        type='PoseDataset',
+        ann_file='data/nturgbd/ntu60_hrnet.pkl',
+        split='xsub_val',
+        pipeline=[
+            dict(type='UniformSampleFrames', clip_len=48, num_clips=10),
+            dict(type='PoseDecode'),
+            dict(type='PoseCompact', hw_ratio=1.0, allow_imgpad=True),
+            dict(type='Resize', scale=(64, 64), keep_ratio=False),
+            dict(
+                type='GeneratePoseTarget',
+                with_kp=True,
+                with_limb=False,
+                double=True,
+                left_kp=[1, 3, 5, 7, 9, 11, 13, 15],
+                right_kp=[2, 4, 6, 8, 10, 12, 14, 16]),
+            dict(type='FormatShape', input_format='NCTHW_Heatmap'),
+            dict(type='Collect', keys=['imgs', 'label'], meta_keys=[]),
+            dict(type='ToTensor', keys=['imgs'])
+        ]))
+optimizer = dict(type='SGD', lr=0.4, momentum=0.9, weight_decay=0.0003)
+optimizer_config = dict(grad_clip=dict(max_norm=40, norm_type=2))
+lr_config = dict(policy='CosineAnnealing', by_epoch=False, min_lr=0)
+total_epochs = 24
+checkpoint_config = dict(interval=1)
+evaluation = dict(
+    interval=1, metrics=['top_k_accuracy', 'mean_class_accuracy'], topk=(1, 5))
+log_config = dict(interval=20, hooks=[dict(type='TextLoggerHook')])
+log_level = 'INFO'
+work_dir = './work_dirs/posec3d/c3d_light_ntu60_xsub/joint'
+dist_params = dict(backend='nccl')
+gpu_ids = range(0, 1)
+
+2025-11-26 11:51:48,175 - pyskl - INFO - Set random seed to 152363915, deterministic: False
+2025-11-26 11:51:50,851 - pyskl - INFO - 40091 videos remain after valid thresholding
+2025-11-26 11:51:54,352 - pyskl - INFO - Start running, host: yg3030@a100-4005, work_dir: /gpfs/scratch/yg3030/Video-Based-Infant-Action-Recognition/pyskl/work_dirs/posec3d/c3d_light_ntu60_xsub/joint
+2025-11-26 11:51:54,352 - pyskl - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) CosineAnnealingLrUpdaterHook       
+(NORMAL      ) CheckpointHook                     
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) CosineAnnealingLrUpdaterHook       
+(NORMAL      ) DistSamplerSeedHook                
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) CosineAnnealingLrUpdaterHook       
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) OptimizerHook                      
+(NORMAL      ) CheckpointHook                     
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(NORMAL      ) DistSamplerSeedHook                
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2025-11-26 11:51:54,353 - pyskl - INFO - workflow: [('train', 1)], max: 24 epochs
+2025-11-26 11:51:54,353 - pyskl - INFO - Checkpoints will be saved to /gpfs/scratch/yg3030/Video-Based-Infant-Action-Recognition/pyskl/work_dirs/posec3d/c3d_light_ntu60_xsub/joint by HardDiskBackend.
+2025-11-26 11:52:20,419 - pyskl - INFO - Epoch [1][20/12529]	lr: 4.000e-01, eta: 4 days, 12:50:55, time: 1.303, data_time: 1.000, memory: 3644, top1_acc: 0.0297, top5_acc: 0.1094, loss_cls: 4.3136, loss: 4.3136, grad_norm: 1.4406
+2025-11-26 11:52:25,118 - pyskl - INFO - Epoch [1][40/12529]	lr: 4.000e-01, eta: 2 days, 16:13:50, time: 0.235, data_time: 0.125, memory: 3644, top1_acc: 0.0344, top5_acc: 0.1531, loss_cls: 4.1303, loss: 4.1303, grad_norm: 0.7225
+2025-11-26 11:52:30,326 - pyskl - INFO - Epoch [1][60/12529]	lr: 4.000e-01, eta: 2 days, 2:03:55, time: 0.260, data_time: 0.143, memory: 3644, top1_acc: 0.0406, top5_acc: 0.1984, loss_cls: 3.9959, loss: 3.9959, grad_norm: 0.5487
+2025-11-26 11:52:35,164 - pyskl - INFO - Epoch [1][80/12529]	lr: 4.000e-01, eta: 1 day, 18:35:48, time: 0.242, data_time: 0.129, memory: 3644, top1_acc: 0.0547, top5_acc: 0.2437, loss_cls: 3.8282, loss: 3.8282, grad_norm: 0.5736
+2025-11-26 11:52:40,037 - pyskl - INFO - Epoch [1][100/12529]	lr: 4.000e-01, eta: 1 day, 14:08:38, time: 0.244, data_time: 0.132, memory: 3644, top1_acc: 0.0641, top5_acc: 0.2812, loss_cls: 3.6497, loss: 3.6497, grad_norm: 0.5684
+2025-11-26 11:52:45,207 - pyskl - INFO - Epoch [1][120/12529]	lr: 4.000e-01, eta: 1 day, 11:22:54, time: 0.259, data_time: 0.134, memory: 3644, top1_acc: 0.0688, top5_acc: 0.2484, loss_cls: 3.6479, loss: 3.6479, grad_norm: 0.6235
+2025-11-26 11:52:50,053 - pyskl - INFO - Epoch [1][140/12529]	lr: 4.000e-01, eta: 1 day, 9:12:54, time: 0.242, data_time: 0.132, memory: 3644, top1_acc: 0.0797, top5_acc: 0.3078, loss_cls: 3.5466, loss: 3.5466, grad_norm: 0.5896
+2025-11-26 11:52:54,942 - pyskl - INFO - Epoch [1][160/12529]	lr: 4.000e-01, eta: 1 day, 7:34:57, time: 0.242, data_time: 0.122, memory: 3644, top1_acc: 0.0766, top5_acc: 0.2781, loss_cls: 3.5782, loss: 3.5782, grad_norm: 0.6242
+2025-11-26 11:52:59,589 - pyskl - INFO - Epoch [1][180/12529]	lr: 4.000e-01, eta: 1 day, 6:15:09, time: 0.235, data_time: 0.116, memory: 3644, top1_acc: 0.1047, top5_acc: 0.3531, loss_cls: 3.4584, loss: 3.4584, grad_norm: 0.5935
+2025-11-26 11:53:04,655 - pyskl - INFO - Epoch [1][200/12529]	lr: 4.000e-01, eta: 1 day, 5:20:24, time: 0.253, data_time: 0.140, memory: 3644, top1_acc: 0.0938, top5_acc: 0.3078, loss_cls: 3.4822, loss: 3.4822, grad_norm: 0.6215
+2025-11-26 11:53:09,392 - pyskl - INFO - Epoch [1][220/12529]	lr: 4.000e-01, eta: 1 day, 4:28:04, time: 0.237, data_time: 0.121, memory: 3644, top1_acc: 0.1156, top5_acc: 0.3625, loss_cls: 3.4028, loss: 3.4028, grad_norm: 0.7080
+2025-11-26 11:53:14,285 - pyskl - INFO - Epoch [1][240/12529]	lr: 4.000e-01, eta: 1 day, 3:47:44, time: 0.245, data_time: 0.136, memory: 3644, top1_acc: 0.1031, top5_acc: 0.3672, loss_cls: 3.3775, loss: 3.3775, grad_norm: 0.7007
+2025-11-26 11:53:19,061 - pyskl - INFO - Epoch [1][260/12529]	lr: 4.000e-01, eta: 1 day, 3:11:19, time: 0.239, data_time: 0.120, memory: 3644, top1_acc: 0.0844, top5_acc: 0.3438, loss_cls: 3.5007, loss: 3.5007, grad_norm: 0.6941
+2025-11-26 11:53:23,499 - pyskl - INFO - Epoch [1][280/12529]	lr: 4.000e-01, eta: 1 day, 2:34:03, time: 0.222, data_time: 0.103, memory: 3644, top1_acc: 0.1125, top5_acc: 0.3688, loss_cls: 3.3598, loss: 3.3598, grad_norm: 0.6527

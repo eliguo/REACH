@@ -1,0 +1,10 @@
+load checkpoint from local path: work_dirs/posec3d/c3d_light_infact2d/joint_output/latest.pth
+[                                                  ] 0/1, elapsed: 0s, ETA:[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 1/1, 0.1 task/s, elapsed: 16s, ETA:     0s
+writing results to ./work_dirs/posec3d/c3d_light_infact2d/joint_output/result.pkl
+
+Evaluating top_k_accuracy ...
+
+top1_acc	0.0000
+top5_acc	1.0000
+top1_acc: 0.0000
+top5_acc: 1.0000

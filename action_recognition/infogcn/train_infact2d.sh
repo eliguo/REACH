@@ -1,0 +1,33 @@
+#!/bin/bash
+
+python -u main.py \
+  --phase train \
+  --feeder feeders.feeder_coco_2d.Feeder \
+  --datapath ../Data/InfActPrimitive/2d/InfAct_plus.pkl \
+  --graph graph.graph_coco_2d.Graph \
+  --num_point 17 \
+  --num_person 1 \
+  --num_class 5 \
+  --load_simple True \
+  --half False \
+  --num_enc_channels 32 \
+  --n_heads 3 \
+  --k 0 \
+  --lambda_1 0 \
+  --lambda_2 0 \
+  --optimizer Adam \
+  --base_lr 3e-4 \
+  --batch_size 32 \
+  --test_batch_size 64 \
+  --num_worker 2 \
+  --random_rot False \
+  --repeat 1 \
+  --step 12 16 \
+  --num_epoch 20 \
+  --warm_up_epoch 0 \
+  --eval_interval 1 \
+  --output_dir outputs_baseline \
+  --model_saved_name infact2d_baseline \
+  --save_score True \
+  --print_log True \
+  --seed 1

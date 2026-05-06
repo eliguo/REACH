@@ -1,0 +1,352 @@
+[ Tue Oct 14 16:58:20 2025 ] Using small model
+[ Tue Oct 14 16:58:20 2025 ] using warm up, epoch: 0
+[ Tue Oct 14 16:58:21 2025 ] train loader has the size: 13
+[ Tue Oct 14 16:58:21 2025 ] train dataset has the size: 400
+[ Tue Oct 14 16:58:21 2025 ] test loader has the size: 7
+[ Tue Oct 14 16:58:21 2025 ] test dataset has the size: 392
+[ Tue Oct 14 16:58:22 2025 ] # Parameters: 273151
+[ Tue Oct 14 16:58:22 2025 ] Training epoch: 1
+[ Tue Oct 14 16:58:26 2025 ] 	Training loss: 18.1098.  Training acc: 17.79%.
+[ Tue Oct 14 16:58:26 2025 ] 	Time consumption: [Data]28%, [Network]72%
+[ Tue Oct 14 16:58:26 2025 ] Eval epoch: 1
+[ Tue Oct 14 16:58:27 2025 ] 	Mean test loss of 1250 batches: 1.832402.
+[ Tue Oct 14 16:58:27 2025 ] 	Top1: 5.36%
+[ Tue Oct 14 16:58:27 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:27 2025 ] Accuracy: 0.05357142857142857, model: infact2d_baseline
+[ Tue Oct 14 16:58:27 2025 ] Training epoch: 2
+[ Tue Oct 14 16:58:28 2025 ] 	Training loss: 9.3186.  Training acc: 21.15%.
+[ Tue Oct 14 16:58:28 2025 ] 	Time consumption: [Data]23%, [Network]77%
+[ Tue Oct 14 16:58:28 2025 ] Eval epoch: 2
+[ Tue Oct 14 16:58:28 2025 ] 	Mean test loss of 1250 batches: 3.280982.
+[ Tue Oct 14 16:58:28 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:28 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:28 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:28 2025 ] Training epoch: 3
+[ Tue Oct 14 16:58:29 2025 ] 	Training loss: 8.3067.  Training acc: 20.67%.
+[ Tue Oct 14 16:58:29 2025 ] 	Time consumption: [Data]20%, [Network]80%
+[ Tue Oct 14 16:58:29 2025 ] Eval epoch: 3
+[ Tue Oct 14 16:58:30 2025 ] 	Mean test loss of 1250 batches: 11.409348.
+[ Tue Oct 14 16:58:30 2025 ] 	Top1: 45.66%
+[ Tue Oct 14 16:58:30 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:30 2025 ] Accuracy: 0.45663265306122447, model: infact2d_baseline
+[ Tue Oct 14 16:58:30 2025 ] Training epoch: 4
+[ Tue Oct 14 16:58:31 2025 ] 	Training loss: 7.6891.  Training acc: 22.36%.
+[ Tue Oct 14 16:58:31 2025 ] 	Time consumption: [Data]20%, [Network]80%
+[ Tue Oct 14 16:58:31 2025 ] Eval epoch: 4
+[ Tue Oct 14 16:58:31 2025 ] 	Mean test loss of 1250 batches: 13.473319.
+[ Tue Oct 14 16:58:31 2025 ] 	Top1: 45.66%
+[ Tue Oct 14 16:58:31 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:31 2025 ] Accuracy: 0.45663265306122447, model: infact2d_baseline
+[ Tue Oct 14 16:58:31 2025 ] Training epoch: 5
+[ Tue Oct 14 16:58:32 2025 ] 	Training loss: 7.1627.  Training acc: 22.12%.
+[ Tue Oct 14 16:58:32 2025 ] 	Time consumption: [Data]17%, [Network]83%
+[ Tue Oct 14 16:58:32 2025 ] Eval epoch: 5
+[ Tue Oct 14 16:58:33 2025 ] 	Mean test loss of 1250 batches: 24.654520.
+[ Tue Oct 14 16:58:33 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:33 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:33 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:33 2025 ] Training epoch: 6
+[ Tue Oct 14 16:58:34 2025 ] 	Training loss: 6.9034.  Training acc: 24.04%.
+[ Tue Oct 14 16:58:34 2025 ] 	Time consumption: [Data]22%, [Network]78%
+[ Tue Oct 14 16:58:34 2025 ] Eval epoch: 6
+[ Tue Oct 14 16:58:34 2025 ] 	Mean test loss of 1250 batches: 48.774498.
+[ Tue Oct 14 16:58:34 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:34 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:34 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:34 2025 ] Training epoch: 7
+[ Tue Oct 14 16:58:36 2025 ] 	Training loss: 6.2863.  Training acc: 21.63%.
+[ Tue Oct 14 16:58:36 2025 ] 	Time consumption: [Data]19%, [Network]81%
+[ Tue Oct 14 16:58:36 2025 ] Eval epoch: 7
+[ Tue Oct 14 16:58:36 2025 ] 	Mean test loss of 1250 batches: 231.695977.
+[ Tue Oct 14 16:58:36 2025 ] 	Top1: 34.95%
+[ Tue Oct 14 16:58:36 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:36 2025 ] Accuracy: 0.3494897959183674, model: infact2d_baseline
+[ Tue Oct 14 16:58:36 2025 ] Training epoch: 8
+[ Tue Oct 14 16:58:37 2025 ] 	Training loss: 6.2782.  Training acc: 17.55%.
+[ Tue Oct 14 16:58:37 2025 ] 	Time consumption: [Data]21%, [Network]79%
+[ Tue Oct 14 16:58:37 2025 ] Eval epoch: 8
+[ Tue Oct 14 16:58:38 2025 ] 	Mean test loss of 1250 batches: 513.003047.
+[ Tue Oct 14 16:58:38 2025 ] 	Top1: 34.95%
+[ Tue Oct 14 16:58:38 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:38 2025 ] Accuracy: 0.3494897959183674, model: infact2d_baseline
+[ Tue Oct 14 16:58:38 2025 ] Training epoch: 9
+[ Tue Oct 14 16:58:39 2025 ] 	Training loss: 5.7180.  Training acc: 20.67%.
+[ Tue Oct 14 16:58:39 2025 ] 	Time consumption: [Data]19%, [Network]81%
+[ Tue Oct 14 16:58:39 2025 ] Eval epoch: 9
+[ Tue Oct 14 16:58:39 2025 ] 	Mean test loss of 1250 batches: 1198.144688.
+[ Tue Oct 14 16:58:39 2025 ] 	Top1: 34.95%
+[ Tue Oct 14 16:58:39 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:39 2025 ] Accuracy: 0.3494897959183674, model: infact2d_baseline
+[ Tue Oct 14 16:58:39 2025 ] Training epoch: 10
+[ Tue Oct 14 16:58:40 2025 ] 	Training loss: 5.6207.  Training acc: 20.91%.
+[ Tue Oct 14 16:58:40 2025 ] 	Time consumption: [Data]16%, [Network]84%
+[ Tue Oct 14 16:58:40 2025 ] Eval epoch: 10
+[ Tue Oct 14 16:58:41 2025 ] 	Mean test loss of 1250 batches: 930.702933.
+[ Tue Oct 14 16:58:41 2025 ] 	Top1: 34.95%
+[ Tue Oct 14 16:58:41 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:41 2025 ] Accuracy: 0.3494897959183674, model: infact2d_baseline
+[ Tue Oct 14 16:58:41 2025 ] Training epoch: 11
+[ Tue Oct 14 16:58:42 2025 ] 	Training loss: 4.7301.  Training acc: 22.60%.
+[ Tue Oct 14 16:58:42 2025 ] 	Time consumption: [Data]19%, [Network]80%
+[ Tue Oct 14 16:58:42 2025 ] Eval epoch: 11
+[ Tue Oct 14 16:58:42 2025 ] 	Mean test loss of 1250 batches: 1641.236119.
+[ Tue Oct 14 16:58:42 2025 ] 	Top1: 34.95%
+[ Tue Oct 14 16:58:42 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:42 2025 ] Accuracy: 0.3494897959183674, model: infact2d_baseline
+[ Tue Oct 14 16:58:42 2025 ] Training epoch: 12
+[ Tue Oct 14 16:58:43 2025 ] 	Training loss: 4.6127.  Training acc: 21.63%.
+[ Tue Oct 14 16:58:43 2025 ] 	Time consumption: [Data]15%, [Network]85%
+[ Tue Oct 14 16:58:43 2025 ] Eval epoch: 12
+[ Tue Oct 14 16:58:44 2025 ] 	Mean test loss of 1250 batches: 1933.256400.
+[ Tue Oct 14 16:58:44 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:44 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:44 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:44 2025 ] Training epoch: 13
+[ Tue Oct 14 16:58:45 2025 ] 	Training loss: 4.2896.  Training acc: 19.71%.
+[ Tue Oct 14 16:58:45 2025 ] 	Time consumption: [Data]18%, [Network]81%
+[ Tue Oct 14 16:58:45 2025 ] Eval epoch: 13
+[ Tue Oct 14 16:58:45 2025 ] 	Mean test loss of 1250 batches: 841.939366.
+[ Tue Oct 14 16:58:45 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:45 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:45 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:45 2025 ] Training epoch: 14
+[ Tue Oct 14 16:58:46 2025 ] 	Training loss: 3.9689.  Training acc: 21.39%.
+[ Tue Oct 14 16:58:46 2025 ] 	Time consumption: [Data]19%, [Network]81%
+[ Tue Oct 14 16:58:46 2025 ] Eval epoch: 14
+[ Tue Oct 14 16:58:47 2025 ] 	Mean test loss of 1250 batches: 414.226855.
+[ Tue Oct 14 16:58:47 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:47 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:47 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:47 2025 ] Training epoch: 15
+[ Tue Oct 14 16:58:48 2025 ] 	Training loss: 4.1060.  Training acc: 22.84%.
+[ Tue Oct 14 16:58:48 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 16:58:48 2025 ] Eval epoch: 15
+[ Tue Oct 14 16:58:48 2025 ] 	Mean test loss of 1250 batches: 329.583588.
+[ Tue Oct 14 16:58:48 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:48 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:48 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:48 2025 ] Training epoch: 16
+[ Tue Oct 14 16:58:49 2025 ] 	Training loss: 3.9127.  Training acc: 21.15%.
+[ Tue Oct 14 16:58:49 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 16:58:49 2025 ] Eval epoch: 16
+[ Tue Oct 14 16:58:50 2025 ] 	Mean test loss of 1250 batches: 365.913788.
+[ Tue Oct 14 16:58:50 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:50 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:50 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:50 2025 ] Training epoch: 17
+[ Tue Oct 14 16:58:51 2025 ] 	Training loss: 4.1027.  Training acc: 20.43%.
+[ Tue Oct 14 16:58:51 2025 ] 	Time consumption: [Data]19%, [Network]81%
+[ Tue Oct 14 16:58:51 2025 ] Eval epoch: 17
+[ Tue Oct 14 16:58:51 2025 ] 	Mean test loss of 1250 batches: 111.440851.
+[ Tue Oct 14 16:58:51 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:51 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:51 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:51 2025 ] Training epoch: 18
+[ Tue Oct 14 16:58:52 2025 ] 	Training loss: 4.0649.  Training acc: 23.80%.
+[ Tue Oct 14 16:58:52 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 16:58:52 2025 ] Eval epoch: 18
+[ Tue Oct 14 16:58:53 2025 ] 	Mean test loss of 1250 batches: 44.418388.
+[ Tue Oct 14 16:58:53 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:53 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:53 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:53 2025 ] Training epoch: 19
+[ Tue Oct 14 16:58:54 2025 ] 	Training loss: 4.3524.  Training acc: 18.03%.
+[ Tue Oct 14 16:58:54 2025 ] 	Time consumption: [Data]17%, [Network]83%
+[ Tue Oct 14 16:58:54 2025 ] Eval epoch: 19
+[ Tue Oct 14 16:58:54 2025 ] 	Mean test loss of 1250 batches: 25.604070.
+[ Tue Oct 14 16:58:54 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:54 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:54 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:54 2025 ] Training epoch: 20
+[ Tue Oct 14 16:58:55 2025 ] 	Training loss: 4.0016.  Training acc: 21.63%.
+[ Tue Oct 14 16:58:55 2025 ] 	Time consumption: [Data]21%, [Network]79%
+[ Tue Oct 14 16:58:55 2025 ] Eval epoch: 20
+[ Tue Oct 14 16:58:56 2025 ] 	Mean test loss of 1250 batches: 22.587517.
+[ Tue Oct 14 16:58:56 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 16:58:56 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 16:58:56 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 16:58:56 2025 ] Best accuracy: 0.45663265306122447
+[ Tue Oct 14 16:58:56 2025 ] Epoch number: 3
+[ Tue Oct 14 16:58:56 2025 ] Model name: outputs_baseline/infogcn_Data_InfActPrimitive_2d_InfAct_plus
+[ Tue Oct 14 16:58:56 2025 ] Model total number of params: 273151
+[ Tue Oct 14 16:58:56 2025 ] Weight decay: 0.0005
+[ Tue Oct 14 16:58:56 2025 ] Base LR: 0.0003
+[ Tue Oct 14 16:58:56 2025 ] Batch Size: 32
+[ Tue Oct 14 16:58:56 2025 ] Test Batch Size: 64
+[ Tue Oct 14 16:58:56 2025 ] seed: 1
+[ Tue Oct 14 17:08:25 2025 ] Using small model
+[ Tue Oct 14 17:08:25 2025 ] using warm up, epoch: 0
+[ Tue Oct 14 17:08:26 2025 ] train loader has the size: 13
+[ Tue Oct 14 17:08:26 2025 ] train dataset has the size: 400
+[ Tue Oct 14 17:08:26 2025 ] test loader has the size: 7
+[ Tue Oct 14 17:08:26 2025 ] test dataset has the size: 392
+[ Tue Oct 14 17:08:27 2025 ] # Parameters: 273151
+[ Tue Oct 14 17:08:27 2025 ] Training epoch: 1
+[ Tue Oct 14 17:08:30 2025 ] 	Training loss: 15.7679.  Training acc: 20.67%.
+[ Tue Oct 14 17:08:30 2025 ] 	Time consumption: [Data]33%, [Network]67%
+[ Tue Oct 14 17:08:30 2025 ] Eval epoch: 1
+[ Tue Oct 14 17:08:30 2025 ] 	Mean test loss of 1250 batches: 3.848690.
+[ Tue Oct 14 17:08:30 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:30 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:30 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:30 2025 ] Training epoch: 2
+[ Tue Oct 14 17:08:31 2025 ] 	Training loss: 10.4385.  Training acc: 21.39%.
+[ Tue Oct 14 17:08:31 2025 ] 	Time consumption: [Data]23%, [Network]77%
+[ Tue Oct 14 17:08:31 2025 ] Eval epoch: 2
+[ Tue Oct 14 17:08:32 2025 ] 	Mean test loss of 1250 batches: 2.819557.
+[ Tue Oct 14 17:08:32 2025 ] 	Top1: 34.95%
+[ Tue Oct 14 17:08:32 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:32 2025 ] Accuracy: 0.3494897959183674, model: infact2d_baseline
+[ Tue Oct 14 17:08:32 2025 ] Training epoch: 3
+[ Tue Oct 14 17:08:33 2025 ] 	Training loss: 8.6735.  Training acc: 21.63%.
+[ Tue Oct 14 17:08:33 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 17:08:33 2025 ] Eval epoch: 3
+[ Tue Oct 14 17:08:33 2025 ] 	Mean test loss of 1250 batches: 2.720580.
+[ Tue Oct 14 17:08:33 2025 ] 	Top1: 45.66%
+[ Tue Oct 14 17:08:33 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:33 2025 ] Accuracy: 0.45663265306122447, model: infact2d_baseline
+[ Tue Oct 14 17:08:33 2025 ] Training epoch: 4
+[ Tue Oct 14 17:08:34 2025 ] 	Training loss: 8.3830.  Training acc: 17.31%.
+[ Tue Oct 14 17:08:34 2025 ] 	Time consumption: [Data]16%, [Network]84%
+[ Tue Oct 14 17:08:34 2025 ] Eval epoch: 4
+[ Tue Oct 14 17:08:35 2025 ] 	Mean test loss of 1250 batches: 3.851421.
+[ Tue Oct 14 17:08:35 2025 ] 	Top1: 45.66%
+[ Tue Oct 14 17:08:35 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:35 2025 ] Accuracy: 0.45663265306122447, model: infact2d_baseline
+[ Tue Oct 14 17:08:35 2025 ] Training epoch: 5
+[ Tue Oct 14 17:08:36 2025 ] 	Training loss: 7.3835.  Training acc: 18.75%.
+[ Tue Oct 14 17:08:36 2025 ] 	Time consumption: [Data]22%, [Network]77%
+[ Tue Oct 14 17:08:36 2025 ] Eval epoch: 5
+[ Tue Oct 14 17:08:36 2025 ] 	Mean test loss of 1250 batches: 5.222868.
+[ Tue Oct 14 17:08:36 2025 ] 	Top1: 45.66%
+[ Tue Oct 14 17:08:36 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:36 2025 ] Accuracy: 0.45663265306122447, model: infact2d_baseline
+[ Tue Oct 14 17:08:36 2025 ] Training epoch: 6
+[ Tue Oct 14 17:08:37 2025 ] 	Training loss: 6.9675.  Training acc: 22.36%.
+[ Tue Oct 14 17:08:37 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 17:08:37 2025 ] Eval epoch: 6
+[ Tue Oct 14 17:08:38 2025 ] 	Mean test loss of 1250 batches: 139.347192.
+[ Tue Oct 14 17:08:38 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:38 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:38 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:38 2025 ] Training epoch: 7
+[ Tue Oct 14 17:08:39 2025 ] 	Training loss: 7.0071.  Training acc: 20.91%.
+[ Tue Oct 14 17:08:39 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 17:08:39 2025 ] Eval epoch: 7
+[ Tue Oct 14 17:08:39 2025 ] 	Mean test loss of 1250 batches: 765.459185.
+[ Tue Oct 14 17:08:39 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:39 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:39 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:39 2025 ] Training epoch: 8
+[ Tue Oct 14 17:08:40 2025 ] 	Training loss: 6.5612.  Training acc: 20.67%.
+[ Tue Oct 14 17:08:40 2025 ] 	Time consumption: [Data]25%, [Network]75%
+[ Tue Oct 14 17:08:40 2025 ] Eval epoch: 8
+[ Tue Oct 14 17:08:41 2025 ] 	Mean test loss of 1250 batches: 2148.153669.
+[ Tue Oct 14 17:08:41 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:41 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:41 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:41 2025 ] Training epoch: 9
+[ Tue Oct 14 17:08:42 2025 ] 	Training loss: 6.0665.  Training acc: 21.63%.
+[ Tue Oct 14 17:08:42 2025 ] 	Time consumption: [Data]20%, [Network]79%
+[ Tue Oct 14 17:08:42 2025 ] Eval epoch: 9
+[ Tue Oct 14 17:08:42 2025 ] 	Mean test loss of 1250 batches: 4369.162109.
+[ Tue Oct 14 17:08:42 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:42 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:42 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:42 2025 ] Training epoch: 10
+[ Tue Oct 14 17:08:43 2025 ] 	Training loss: 6.4221.  Training acc: 20.19%.
+[ Tue Oct 14 17:08:43 2025 ] 	Time consumption: [Data]20%, [Network]80%
+[ Tue Oct 14 17:08:43 2025 ] Eval epoch: 10
+[ Tue Oct 14 17:08:44 2025 ] 	Mean test loss of 1250 batches: 5013.805315.
+[ Tue Oct 14 17:08:44 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:44 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:44 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:44 2025 ] Training epoch: 11
+[ Tue Oct 14 17:08:45 2025 ] 	Training loss: 5.7908.  Training acc: 21.39%.
+[ Tue Oct 14 17:08:45 2025 ] 	Time consumption: [Data]19%, [Network]81%
+[ Tue Oct 14 17:08:45 2025 ] Eval epoch: 11
+[ Tue Oct 14 17:08:45 2025 ] 	Mean test loss of 1250 batches: 5095.658970.
+[ Tue Oct 14 17:08:45 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:45 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:45 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:45 2025 ] Training epoch: 12
+[ Tue Oct 14 17:08:46 2025 ] 	Training loss: 5.3563.  Training acc: 20.91%.
+[ Tue Oct 14 17:08:46 2025 ] 	Time consumption: [Data]19%, [Network]81%
+[ Tue Oct 14 17:08:46 2025 ] Eval epoch: 12
+[ Tue Oct 14 17:08:46 2025 ] 	Mean test loss of 1250 batches: 5517.391532.
+[ Tue Oct 14 17:08:46 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:46 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:46 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:46 2025 ] Training epoch: 13
+[ Tue Oct 14 17:08:47 2025 ] 	Training loss: 5.4992.  Training acc: 21.63%.
+[ Tue Oct 14 17:08:47 2025 ] 	Time consumption: [Data]24%, [Network]76%
+[ Tue Oct 14 17:08:48 2025 ] Eval epoch: 13
+[ Tue Oct 14 17:08:48 2025 ] 	Mean test loss of 1250 batches: 1795.982422.
+[ Tue Oct 14 17:08:48 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:48 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:48 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:48 2025 ] Training epoch: 14
+[ Tue Oct 14 17:08:49 2025 ] 	Training loss: 4.9569.  Training acc: 20.67%.
+[ Tue Oct 14 17:08:49 2025 ] 	Time consumption: [Data]20%, [Network]80%
+[ Tue Oct 14 17:08:49 2025 ] Eval epoch: 14
+[ Tue Oct 14 17:08:49 2025 ] 	Mean test loss of 1250 batches: 811.278521.
+[ Tue Oct 14 17:08:49 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:49 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:49 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:49 2025 ] Training epoch: 15
+[ Tue Oct 14 17:08:50 2025 ] 	Training loss: 5.2650.  Training acc: 17.31%.
+[ Tue Oct 14 17:08:50 2025 ] 	Time consumption: [Data]20%, [Network]80%
+[ Tue Oct 14 17:08:51 2025 ] Eval epoch: 15
+[ Tue Oct 14 17:08:51 2025 ] 	Mean test loss of 1250 batches: 593.581783.
+[ Tue Oct 14 17:08:51 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:51 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:51 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:51 2025 ] Training epoch: 16
+[ Tue Oct 14 17:08:52 2025 ] 	Training loss: 5.0571.  Training acc: 22.84%.
+[ Tue Oct 14 17:08:52 2025 ] 	Time consumption: [Data]18%, [Network]81%
+[ Tue Oct 14 17:08:52 2025 ] Eval epoch: 16
+[ Tue Oct 14 17:08:52 2025 ] 	Mean test loss of 1250 batches: 532.209686.
+[ Tue Oct 14 17:08:52 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:52 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:52 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:52 2025 ] Training epoch: 17
+[ Tue Oct 14 17:08:54 2025 ] 	Training loss: 5.2661.  Training acc: 21.88%.
+[ Tue Oct 14 17:08:54 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 17:08:54 2025 ] Eval epoch: 17
+[ Tue Oct 14 17:08:54 2025 ] 	Mean test loss of 1250 batches: 117.070953.
+[ Tue Oct 14 17:08:54 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:54 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:54 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:54 2025 ] Training epoch: 18
+[ Tue Oct 14 17:08:55 2025 ] 	Training loss: 4.9161.  Training acc: 22.36%.
+[ Tue Oct 14 17:08:55 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 17:08:55 2025 ] Eval epoch: 18
+[ Tue Oct 14 17:08:56 2025 ] 	Mean test loss of 1250 batches: 21.876219.
+[ Tue Oct 14 17:08:56 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:56 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:56 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:56 2025 ] Training epoch: 19
+[ Tue Oct 14 17:08:57 2025 ] 	Training loss: 4.7273.  Training acc: 24.52%.
+[ Tue Oct 14 17:08:57 2025 ] 	Time consumption: [Data]18%, [Network]82%
+[ Tue Oct 14 17:08:57 2025 ] Eval epoch: 19
+[ Tue Oct 14 17:08:57 2025 ] 	Mean test loss of 1250 batches: 7.867672.
+[ Tue Oct 14 17:08:57 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:57 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:57 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:57 2025 ] Training epoch: 20
+[ Tue Oct 14 17:08:58 2025 ] 	Training loss: 4.9337.  Training acc: 23.08%.
+[ Tue Oct 14 17:08:58 2025 ] 	Time consumption: [Data]23%, [Network]77%
+[ Tue Oct 14 17:08:58 2025 ] Eval epoch: 20
+[ Tue Oct 14 17:08:59 2025 ] 	Mean test loss of 1250 batches: 6.340675.
+[ Tue Oct 14 17:08:59 2025 ] 	Top1: 8.42%
+[ Tue Oct 14 17:08:59 2025 ] 	Top5: 100.00%
+[ Tue Oct 14 17:08:59 2025 ] Accuracy: 0.08418367346938775, model: infact2d_baseline
+[ Tue Oct 14 17:08:59 2025 ] Best accuracy: 0.45663265306122447
+[ Tue Oct 14 17:08:59 2025 ] Epoch number: 3
+[ Tue Oct 14 17:08:59 2025 ] Model name: outputs_baseline/infogcn_Data_InfActPrimitive_2d_InfAct_plus
+[ Tue Oct 14 17:08:59 2025 ] Model total number of params: 273151
+[ Tue Oct 14 17:08:59 2025 ] Weight decay: 0.0005
+[ Tue Oct 14 17:08:59 2025 ] Base LR: 0.0003
+[ Tue Oct 14 17:08:59 2025 ] Batch Size: 32
+[ Tue Oct 14 17:08:59 2025 ] Test Batch Size: 64
+[ Tue Oct 14 17:08:59 2025 ] seed: 2

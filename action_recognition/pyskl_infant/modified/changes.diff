@@ -1,0 +1,93 @@
+diff --git a/configs/posec3d/c3d_light_ntu60_xsub/joint.py b/configs/posec3d/c3d_light_ntu60_xsub/joint.py
+index 715c7da..ab184bb 100644
+--- a/configs/posec3d/c3d_light_ntu60_xsub/joint.py
++++ b/configs/posec3d/c3d_light_ntu60_xsub/joint.py
+@@ -65,6 +65,7 @@ optimizer = dict(type='SGD', lr=0.4, momentum=0.9, weight_decay=0.0003)  # this
+ optimizer_config = dict(grad_clip=dict(max_norm=40, norm_type=2))
+ # learning policy
+ lr_config = dict(policy='CosineAnnealing', by_epoch=False, min_lr=0)
++# total_epochs = 24
+ total_epochs = 24
+ checkpoint_config = dict(interval=1)
+ evaluation = dict(interval=1, metrics=['top_k_accuracy', 'mean_class_accuracy'], topk=(1, 5))
+diff --git a/configs/posec3d/slowonly_r50_ucf101_k400p/s1_joint.py b/configs/posec3d/slowonly_r50_ucf101_k400p/s1_joint.py
+index 9964902..e9d59a6 100644
+--- a/configs/posec3d/slowonly_r50_ucf101_k400p/s1_joint.py
++++ b/configs/posec3d/slowonly_r50_ucf101_k400p/s1_joint.py
+@@ -62,19 +62,20 @@ data = dict(
+     test_dataloader=dict(videos_per_gpu=1),
+     train=dict(
+         type='RepeatDataset',
+-        times=10,
++        times=1,
+         dataset=dict(type=dataset_type, ann_file=ann_file, split='train1', pipeline=train_pipeline)),
+     val=dict(type=dataset_type, ann_file=ann_file, split='test1', pipeline=val_pipeline),
+     test=dict(type=dataset_type, ann_file=ann_file, split='test1', pipeline=test_pipeline))
+ # optimizer
+-optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0003)  # this lr is used for 8 gpus
++# optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0003)  # this lr is used for 8 gpus
++optimizer = dict(type='SGD', lr=0.001, momentum=0.9, weight_decay=0.0003)
+ optimizer_config = dict(grad_clip=dict(max_norm=40, norm_type=2))
+ # learning policy
+ lr_config = dict(policy='step', step=[9, 11])
+ total_epochs = 12
+ checkpoint_config = dict(interval=1)
+ evaluation = dict(interval=1, metrics=['top_k_accuracy', 'mean_class_accuracy'], topk=(1, 5))
+-log_config = dict(interval=20, hooks=[dict(type='TextLoggerHook')])
++log_config = dict(interval=100, hooks=[dict(type='TextLoggerHook')])
+ log_level = 'INFO'
+ work_dir = './work_dirs/posec3d/slowonly_r50_ucf101_k400p/s1_joint'
+ load_from = 'https://download.openmmlab.com/mmaction/skeleton/posec3d/k400_posec3d-041f49c6.pth'  # noqa: E501
+diff --git a/demo/demo_skeleton.py b/demo/demo_skeleton.py
+index 93867f5..8e94348 100644
+--- a/demo/demo_skeleton.py
++++ b/demo/demo_skeleton.py
+@@ -42,7 +42,6 @@ except (ImportError, ModuleNotFoundError):
+         '`mmpose.apis`. Make sure you can successfully import these if you want to use related features. '
+     )
+ 
+-
+ try:
+     import moviepy.editor as mpy
+ except ImportError:
+@@ -302,8 +301,38 @@ def main():
+         cv2.putText(frame, action_label, (10, 30), FONTFACE, FONTSCALE,
+                     FONTCOLOR, THICKNESS, LINETYPE)
+ 
+-    vid = mpy.ImageSequenceClip([x[:, :, ::-1] for x in vis_frames], fps=24)
+-    vid.write_videofile(args.out_filename, remove_temp=True)
++    # -------- robust FPS from input video --------
++    cap = cv2.VideoCapture(args.video)
++    fps = cap.get(cv2.CAP_PROP_FPS)
++    cap.release()
++    if fps is None or fps <= 0 or np.isnan(fps):
++        fps = 24.0
++    fps = float(fps)
++    print("Using FPS:", fps)
++
++    # -------- write mp4 with OpenCV (no moviepy) --------
++    out_dir = osp.dirname(args.out_filename)
++    if out_dir != "" and (not osp.exists(out_dir)):
++        os.makedirs(out_dir, exist_ok=True)
++
++    h, w, _ = vis_frames[0].shape
++
++    # 'mp4v' is usually the most compatible on linux clusters
++    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
++    writer = cv2.VideoWriter(args.out_filename, fourcc, fps, (w, h))
++
++    if not writer.isOpened():
++        raise RuntimeError(
++            "cv2.VideoWriter failed to open. Try changing output path to scratch, "
++            "or use a different fourcc (e.g., 'avc1' if available)."
++        )
++
++    for frame in vis_frames:
++        # frame is already BGR from vis_pose_result
++        writer.write(frame)
++
++    writer.release()
++    print("Saved video:", args.out_filename)
+ 
+     tmp_frame_dir = osp.dirname(frame_paths[0])
+     shutil.rmtree(tmp_frame_dir)

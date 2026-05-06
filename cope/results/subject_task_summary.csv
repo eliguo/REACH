@@ -1,0 +1,556 @@
+top_level,subject_id,phase,tasks_present,missing_tasks,n_missing
+12_Months,100,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,100,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,107,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,107,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,109,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,109,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,111,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,111,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,119,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,119,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,126,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,126,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,127,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,127,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,142,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,142,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,144,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,144,E2,"['depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",['arm_restraint'],1
+12_Months,153,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,153,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,168,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,168,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,170,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,170,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,174,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,174,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,18,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping']",['still_face'],1
+12_Months,18,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,19,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,19,E2,"['arm_restraint', 'freeplay', 'still_face']","['maap', 'nail_clipping']",2
+12_Months,193,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,193,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,20,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,20,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,201,E1,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,201,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,219,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,219,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,225,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,225,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,226,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,226,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,237,E1,"['freeplay', 'still_face']","['arm_restraint', 'maap', 'nail_clipping']",3
+12_Months,237,E2,"['freeplay', 'still_face']","['arm_restraint', 'maap', 'nail_clipping']",3
+12_Months,249,E1,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,249,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,25,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,25,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,279,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,279,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,311,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,311,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,328,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,328,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,336,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,336,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,350,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,350,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,363,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,363,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,363,E3,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,372,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,372,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,372,E3,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,378,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,378,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,38,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,38,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,385,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping']",['still_face'],1
+12_Months,385,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,393,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,406,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,406,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,421,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,421,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,423,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,423,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,424,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,424,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,424,E3,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,434,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,441,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,441,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,45,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,45,E2,"['depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",['arm_restraint'],1
+12_Months,452,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,452,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,452,E3,"['depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",['arm_restraint'],1
+12_Months,464,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,464,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,468,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,47,E1,['arm_restraint'],"['freeplay', 'maap', 'nail_clipping', 'still_face']",4
+12_Months,47,E2,"['arm_restraint', 'still_face']","['freeplay', 'maap', 'nail_clipping']",3
+12_Months,471,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,471,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,5,E1,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,5,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,501,E1,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,501,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,516,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,516,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,534,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,534,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,550,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,550,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,562,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,562,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,572,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,578,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,578,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,59,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,591,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,591,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,6,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,6,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,601,E1,"['depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",['arm_restraint'],1
+12_Months,601,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,614,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,614,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,651,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,651,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,71,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,71,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping']",['still_face'],1
+12_Months,71,E3,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,74,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,74,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,77,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,77,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,77,E3,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,79,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,79,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,8,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,8,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,94,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,94,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,99,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,99,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21052,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21056,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21056,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21069,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21069,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21116,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21116,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21146,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21146,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21152,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M21152,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M21184,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21184,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21215,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21215,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21226,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21226,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21259,E1,"['arm_restraint', 'still_face']","['freeplay', 'maap', 'nail_clipping']",3
+12_Months,M21269,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21349,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21478,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21587,E1,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21588,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21588,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21603,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21614,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21614,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21659,E1,['arm_restraint'],"['freeplay', 'maap', 'nail_clipping', 'still_face']",4
+12_Months,M21663,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21706,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21706,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21722,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M21722,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M21752,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21780,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21780,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M21793,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21793,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M21805,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M21805,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M22000,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22000,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22179,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22179,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22289,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22289,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22306,E1,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22306,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22380,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M22381,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22381,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22382,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22400,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22400,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22439,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22439,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22440,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22440,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22588,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22647,E1,"['freeplay', 'nail_clipping', 'still_face']","['arm_restraint', 'maap']",2
+12_Months,M22801,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22801,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22822,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22822,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22901,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22911,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M22911,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23066,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23066,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23107,E1,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M23107,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M23112,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M23112,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23274,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23274,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23288,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23288,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23387,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23387,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23455,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23455,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23697,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23827,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M23827,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24232,E2,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M24236,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24309,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24309,E2,"['freeplay', 'maap', 'nail_clipping']","['arm_restraint', 'still_face']",2
+12_Months,M24341,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24341,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24432,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,M24432,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24542,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24542,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24586,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24873,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24873,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24928,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,M24957,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,M24957,E2,['maap'],"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",4
+12_Months,M25179,E1,"['arm_restraint', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,N194,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N194,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N208,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N231,E1,['arm_restraint'],"['freeplay', 'maap', 'nail_clipping', 'still_face']",4
+12_Months,N410,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N419,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,N507,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N507,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N564,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N564,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N643,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N643,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,N801,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1366,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1455,E1,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,T1455,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,T1551,E1,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1551,E2,"['arm_restraint', 'calibration', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,T1768,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1768,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,T1836,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1836,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1862,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1862,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1992,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T1992,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['maap'],1
+12_Months,T2004,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T2096,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,T2096,E2,"['arm_restraint', 'depth', 'freeplay', 'maap', 'still_face']",['nail_clipping'],1
+12_Months,T2177,E1,"['arm_restraint', 'depth', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T2224,E1,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T2224,E2,"['arm_restraint', 'freeplay', 'maap', 'nail_clipping', 'still_face']",[],0
+12_Months,T2274,E1,"['arm_restraint', 'depth']","['freeplay', 'maap', 'nail_clipping', 'still_face']",4
+6_Months,100,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,100,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,102,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,102,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,107,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,107,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,109,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,109,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,109,E3,"['freeplay', 'nail_clipping', 'still_face', 'visual_attention']",['arm_restraint'],1
+6_Months,111,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,111,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,119,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,119,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,127,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,127,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,140,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,140,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,144,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,144,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,153,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'visual_attention']",['still_face'],1
+6_Months,153,E2,"['freeplay', 'nail_clipping', 'visual_attention']","['arm_restraint', 'still_face']",2
+6_Months,168,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,168,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,17,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,17,E2,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,170,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,170,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,174,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,174,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,18,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,18,E2,"['freeplay', 'nail_clipping', 'still_face', 'visual_attention']",['arm_restraint'],1
+6_Months,19,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,19,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,1912,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,1912,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,196,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,196,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,199,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,199,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,20,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,20,E2,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,201,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,201,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,201,E3,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,218,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,218,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,225,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,225,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,226,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,226,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,235,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,235,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,237,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,237,E2,"['arm_restraint', 'still_face', 'visual_attention']","['freeplay', 'nail_clipping']",2
+6_Months,249,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,249,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,249,E3,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,268,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,268,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,299,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,299,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,311,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,311,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,335,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,335,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,336,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['visual_attention'],1
+6_Months,336,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,350,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,350,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,354,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,354,E2,"['depth', 'freeplay', 'still_face', 'visual_attention']","['arm_restraint', 'nail_clipping']",2
+6_Months,363,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['visual_attention'],1
+6_Months,363,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['visual_attention'],1
+6_Months,363,E3,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['visual_attention'],1
+6_Months,373,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,373,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,378,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,378,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,406,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,406,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,421,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,421,E2,"['nail_clipping', 'visual_attention']","['arm_restraint', 'freeplay', 'still_face']",3
+6_Months,423,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,423,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,424,E1,"['arm_restraint', 'still_face', 'visual_attention']","['freeplay', 'nail_clipping']",2
+6_Months,424,E2,"['arm_restraint', 'freeplay', 'nail_clipping']","['still_face', 'visual_attention']",2
+6_Months,426,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,426,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,439,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,439,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,441,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,441,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,45,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,45,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,452,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,452,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,464,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,464,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,468,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,471,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,471,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,49,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,49,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,5,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,516,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,516,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,534,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,534,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,547,E1,"['freeplay', 'nail_clipping', 'still_face', 'visual_attention']",['arm_restraint'],1
+6_Months,547,E2,"['freeplay', 'nail_clipping', 'still_face', 'visual_attention']",['arm_restraint'],1
+6_Months,55,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,55,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,562,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,562,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,572,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,572,E2,"['arm_restraint', 'depth', 'freeplay', 'visual_attention']","['nail_clipping', 'still_face']",2
+6_Months,59,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,59,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,591,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,591,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,6,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,6,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,601,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,601,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,614,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,614,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,624,E1,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,638,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,638,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,71,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,71,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,74,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,74,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21052,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21052,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21056,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21069,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21069,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21071,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21071,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21073,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21146,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21146,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21152,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21152,E2,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21184,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21184,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21226,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21226,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21228,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21228,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21269,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21269,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21349,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21349,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21570,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21587,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21588,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21588,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21603,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21614,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21614,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21620,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21642,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21642,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21658,E1,['visual_attention'],"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",4
+6_Months,M21659,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21659,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21660,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face']",['visual_attention'],1
+6_Months,M21660,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21662,E1,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21662,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21663,E1,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21663,E2,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21663,E3,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21672,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21706,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21722,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21722,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21752,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'visual_attention']",['still_face'],1
+6_Months,M21780,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21780,E2,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M21793,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21850,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21994,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M21994,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22000,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22000,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22179,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22179,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M22272,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22272,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22289,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22289,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22306,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22306,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22380,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22380,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22381,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22381,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22382,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22383,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22400,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22400,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M22417,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22439,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22439,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22440,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22440,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22588,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22588,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22624,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22624,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22822,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22822,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22901,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22911,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M22911,E2,"['arm_restraint', 'calibration', 'freeplay', 'still_face']","['nail_clipping', 'visual_attention']",2
+6_Months,M23066,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'visual_attention']",['still_face'],1
+6_Months,M23066,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23112,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M23112,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M23274,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23274,E2,"['arm_restraint', 'freeplay', 'still_face']","['nail_clipping', 'visual_attention']",2
+6_Months,M23276,E1,"['arm_restraint', 'depth', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M23288,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23366,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23387,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23387,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23405,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23468,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23468,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23635,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M23697,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24232,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,M24283,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24283,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24341,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24341,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24432,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24432,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24542,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24542,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24591,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24718,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24718,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24749,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24749,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24793,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24793,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24886,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24926,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24957,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M24957,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M25139,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M25139,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M25139-2,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M25139-2,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,M25179,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N186,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N186,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N194,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N194,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N208,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face']",['visual_attention'],1
+6_Months,N208,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N231,E1,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N231,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N231,E3,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N367,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N367,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N419,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N419,E2,"['arm_restraint', 'freeplay', 'still_face', 'visual_attention']",['nail_clipping'],1
+6_Months,N507,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N507,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N564,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N564,E2,"['arm_restraint', 'calibration', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N564,E3,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N643,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N643,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N801,E1,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N801,E2,"['arm_restraint', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N850,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N850,E2,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0
+6_Months,N853,E1,"['arm_restraint', 'depth', 'freeplay', 'nail_clipping', 'still_face', 'visual_attention']",[],0

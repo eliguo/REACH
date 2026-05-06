@@ -1,0 +1,50 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.venv_bak/
+venv/
+env/
+
+# editors
+.vscode/
+.idea/
+.DS_Store
+
+# raw datasets (download separately, see READMEs)
+**/Data/InfActPrimitive/
+**/Data/NTU/
+**/InfActPrimitive/
+**/NTU/
+
+# large data dumps & checkpoints
+*.npy
+*.npz
+*.zip
+*.pth
+*.pt
+*.tar.gz
+
+# per-epoch test score dumps (kept best_score.pkl + acc_hist.pkl in results/ instead)
+epoch*_test_score.pkl
+output*.pkl
+
+# tensorboard runs
+**/runs/
+
+# training output dirs (logs already mirrored under results/)
+**/work_dirs/
+**/outputs_baseline/
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# media (large)
+*.mp4
+*.mov
+*.avi
+
+# cope full inventory (7.7MB, redundant with summary csvs in results/)
+**/cope/results/dataset_inventory_full.csv
